@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-{% load staticfiles %} <!-- New line-->
+{% load staticfiles %}
 
 <html>
 	
@@ -10,9 +10,9 @@
 	
 	<body>
 		<h1>Rango says...</h1>
-		hello world <strong>{{ boldmessage}}</strong><br />
-		<a href="rango/about/">About</a><br />
-		<img src="{% static "images/mango.jpg" % }" alt="Picture of mango /><!-- New line -->
+		hello world <strong>{{ boldmessage }}</strong><br />
+		<a href="/rango/about/">About</a><br />
+		<img src="http://www.tangowithdjango.com/book17/_images/rango-site-with-pic.png" alt="Picture of mango" />
 	</body>
 
 </html>
